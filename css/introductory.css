@@ -1,0 +1,44 @@
+.introductory {
+	padding: 90px 0;
+}
+
+.introductory__title {
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.introductory__text {
+	margin-bottom: 20px;
+}
+
+.introductory__code-style-css {
+	padding-bottom: 40px;
+}
+
+.introductory__list-title {
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+.introductory__list {
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+
+
+.introductory__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.introductory__link {
+	display: inline-block;
+	padding: 25px;
+	background-color: rgb(2, 100, 248);
+	color: #fff;
+	border-radius: 20px;
+}
+
+.introductory__link:hover {
+	background-color: rgb(2, 51, 124);
+}

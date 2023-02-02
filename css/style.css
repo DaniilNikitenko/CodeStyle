@@ -1,0 +1,30 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	height: 100%;
+	line-height: 1;
+	font-size: 22px;
+
+}
+
+h1,
+h2 {
+	font-weight: 700;
+}
+
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.page {
+	flex: 1 1 auto;
+}
+
+[class*="__container"] {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
